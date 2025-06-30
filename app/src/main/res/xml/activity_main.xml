@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/predictionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Получить предсказание на день"
+        android:layout_marginBottom="32dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/card1"
+            android:layout_width="100dp"
+            android:layout_height="180dp"
+            android:layout_margin="8dp"
+            android:contentDescription="Карта Таро 1"/>
+
+        <ImageView
+            android:id="@+id/card2"
+            android:layout_width="100dp"
+            android:layout_height="180dp"
+            android:layout_margin="8dp"
+            android:contentDescription="Карта Таро 2"/>
+
+        <ImageView
+            android:id="@+id/card3"
+            android:layout_width="100dp"
+            android:layout_height="180dp"
+            android:layout_margin="8dp"
+            android:contentDescription="Карта Таро 3"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:background="#F0F0F0"
+        android:textColor="#000000"
+        android:visibility="gone"/>
+</LinearLayout>
