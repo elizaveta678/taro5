@@ -54,26 +54,26 @@ UX & UI
 Приложение построено на MVVM + Clean Architecture для удобства поддержки и масштабирования.
 
 📦 Presentation Layer (UI)
-├── 🖥️ Composables (Jetpack Compose UI)
-├── 🎯 ViewModels (UI State Management)
-└── � Navigation (Screen Navigation)
+-  🖥️ Composables (Jetpack Compose UI)
+-  🎯 ViewModels (UI State Management)
+-   � Navigation (Screen Navigation)
 
 📦 Domain Layer (Business Logic)
-├── 🎯 Use Cases (Business Operations)
-├── 📋 Entities (Domain Models)
-└── 🔌 Repository Interfaces
+- 🎯 Use Cases (Business Operations)
+-  📋 Entities (Domain Models)
+-   🔌 Repository Interfaces
 
 📦 Data Layer (Data Management)
-├── 🗄️ Repositories (Data Sources Orchestration)
-├── 💾 Local DataSource (Room Database)
-└── 🔄 Synchronization (Offline-First)
+- 🗄️ Repositories (Data Sources Orchestration)
+- 💾 Local DataSource (Room Database)
+- 🔄 Synchronization (Offline-First)
 
 ## Будущие улучшения
-📤 Push-уведомления о новых гороскопах и фактах
-📤 Интеграция с календарем устройства
-📤 Мультиязычная поддержка
-📤 Расширение раздела Таро (расклады, советы)
-📤 Новые коллекции фактов и иллюстраций
+- 📤 Push-уведомления о новых гороскопах и фактах
+ 📤 Интеграция с календарем устройства
+ 📤 Мультиязычная поддержка
+ 📤 Расширение раздела Таро (расклады, советы)
+ 📤 Новые коллекции фактов и иллюстраций
 
 ## Авторы
 👨‍💻 Elizaveta Burhanova
